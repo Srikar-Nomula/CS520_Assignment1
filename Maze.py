@@ -7,12 +7,8 @@ class linkedList:
     def __init__(self):
             self.head = None
 
-class Node:
 
-    def __init__(self,data):
-        self.data = data
-        self.prev = None
-        self.next = None
+
 
 # generating maze environments of size 101 x 101
 class maze:
@@ -47,6 +43,7 @@ class maze:
         maze[source[0],source[1]] = 5
         maze[target[0], target[1]] = 7
         print(maze)
+        return maze
     def printMaze(maze):
         plot.imshow(maze)
 

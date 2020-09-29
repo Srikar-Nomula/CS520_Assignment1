@@ -15,4 +15,4 @@ Maze1 = Maze.maze(101,101)
 # plot.imshow(np.asarray(Maze1), cmap='viridis')
 # plot.imshow(Maze1)
 
-Maze1.printMaze()
+print(Maze1.maze)
